@@ -1,0 +1,9 @@
+describe_disease:
+  description: >
+    Analyze the following disease in {inputs} and provide a detailed description
+    along with possible treatments.
+  expected_output: >
+    A detailed information about the disease, its stage, treatment options, and 
+    preventive measures. Provide the output in a nice markdown format that can 
+    be easily rendered by Streamlit.
+  agent: crop_disease_agent
