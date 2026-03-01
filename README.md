@@ -18,23 +18,19 @@ An intelligent farming assistant built using **Python and Streamlit** that helps
 ## 🛠 Tech Stack
 
 - **Frontend/UI:** Streamlit  
-- **Backend:** Python  
-- **Machine Learning:** TensorFlow / PyTorch / OpenCV (update if needed)  
-- **Data Processing:** Pandas, NumPy  
+- **Backend:** Python   
 - **Version Control:** Git, GitHub  
 
 ---
 
 ##  Project Structure
 ycce_hackathon/
-├── app.py
-├── __pycache__
-├── config
-├── README.md
-└── .gitignore
+- app.py
+- pycache__
+- config
+- README.md
+- .gitignore
 
-
----
 
 ##  Installation & Run Locally
 
@@ -47,5 +43,5 @@ cd ycce_hackathon
 streamlit run app.py 
 
 #### Environment Variables
-Create a .env file in the root folder and add:
-API_KEY=your_api_key_here
+Create a .env file in the root folder and add
+- API_KEY=your_api_key_here
